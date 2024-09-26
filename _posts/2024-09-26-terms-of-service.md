@@ -6,9 +6,9 @@ categories:
   - Layout
   - Uncategorized
 tags:
-  - edge case
-  - image
-  - layout
+  - terms of service
+  - wiki layout
+---
 
 
 **Effective Date:** September 26, 2024
