@@ -17,7 +17,7 @@ tags:
 - [Discord Terms of Service](https://discord.com/terms)
 - [Discord Community Guidelines](https://discord.com/guidelines)
 - [Discord Privacy Policy](https://discord.com/privacy)
-- [Our Privacy Policy](https://sillyaurora.github.io/rules/privacy-policy/)
+- [Our Privacy Policy](https://sillyaurora.github.io/Auro2/privacy-policy/)
 
 Welcome to Auro 2! By using our bot, you agree to these Terms of Service. If you do not agree, please do not use the bot.
 
@@ -35,7 +35,7 @@ You agree to:
 - Not spam, harass, or otherwise disrupt other users.
 
 ## 4. Privacy Policy
-Your use of the Bot may involve the collection and processing of personal data. For details on how we handle your information, please review our Privacy Policy [link to your privacy policy].
+Your use of the Bot may involve the collection and processing of personal data. For details on how we handle your information, please review our Privacy Policy https://sillyaurora.github.io/Auro2/privacy-policy/.
 
 ## 5. User Content
 You retain all rights to any content you create while using the Bot. However, by using the Bot, you grant us a non-exclusive, worldwide, royalty-free license to use, reproduce, and display such content in connection with the Bot.
