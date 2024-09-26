@@ -16,6 +16,8 @@ tags:
 **Important Links:**
 - [Discord Terms of Service](https://discord.com/terms)
 - [Discord Community Guidelines](https://discord.com/guidelines)
+- [Discord Privacy Policy](https://discord.com/privacy)
+- [Our Privacy Policy](https://sillyaurora.github.io/rules/privacy-policy/)
 
 Welcome to Auro 2! By using our bot, you agree to these Terms of Service. If you do not agree, please do not use the bot.
 
@@ -48,10 +50,10 @@ We reserve the right to suspend or terminate your access to the Bot at any time,
 We may update these Terms from time to time. We will notify you of any significant changes via the Bot or by posting a notice on our official Discord server. Your continued use of the Bot after changes are posted constitutes your acceptance of the new Terms.
 
 ## 9. Governing Law
-These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising from these Terms will be resolved in the courts located in [Your Jurisdiction].
+These Terms shall be governed by and construed in accordance with the laws of US and PH. Any disputes arising from these Terms will be resolved in the courts located in US and PH.
 
 ## 10. Contact Us
-If you have any questions or concerns about these Terms, please contact us at [Your Contact Information].
+If you have any questions or concerns about these Terms, please contact us at my Discord Server. https://www.discord.gg/CJCmcUPENg
 
 ## 11. Intellectual Property
 All intellectual property rights in the Bot and its content are owned by Auro 2 or its licensors. You may not copy, modify, distribute, or create derivative works of any part of the Bot without our express written permission. Unauthorized use of any trademarks or other proprietary information may result in legal action.
