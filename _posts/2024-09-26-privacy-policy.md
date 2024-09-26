@@ -18,7 +18,7 @@ At Auro 2, we are committed to protecting your privacy. This Privacy Policy expl
 - [Discord Terms of Service](https://discord.com/terms)
 - [Discord Community Guidelines](https://discord.com/guidelines)
 - [Discord Privacy Policy](https://discord.com/privacy)
-- [Our Privacy Policy](https://sillyaurora.github.io/Auro2/privacy-policy/)
+- [Our Terms of Service](https://sillyaurora.github.io/Auro2/terms-of-service/)
 
 **1. Information We Collect**
 
@@ -52,4 +52,4 @@ You have the right to request access to the information we hold about you, to re
 We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting a notice on our official Discord server or through the bot.
 **8. Contact Us**
 
-If you have any questions or concerns about this Privacy Policy, please contact us at Discord: https://www.discord.gg/CJCmcUPENg
+If you have any questions or concerns about this Privacy Policy, please contact us at Discord: (click)[https://www.discord.gg/CJCmcUPENg]
