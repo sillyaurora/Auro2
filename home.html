@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auro 2 Bot</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat, sans-serif;
+        }
+        .section {
+            background-color: rgba(10, 17, 23, 1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            align-items: center;
+            font-weight: 700;
+            text-align: center;
+            justify-content: center;
+            padding: 121px 80px;
+        }
+        .container {
+            display: flex;
+            width: 1140px;
+            max-width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .title {
+            color: #fff;
+            font-size: 72px;
+            line-height: 82px;
+            letter-spacing: 1px;
+        }
+        .description {
+            color: #fff;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 31px;
+            margin-top: 32px;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            border-radius: 16px;
+            background-color: rgba(255, 207, 1, 1);
+            box-shadow: 0 9px 44px rgba(255, 207, 1, 0.2);
+            width: 214px;
+            max-width: 100%;
+            font-size: 20px;
+            color: rgba(16, 21, 26, 1);
+            line-height: 36px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 86px 0 0 -1px;
+            padding: 16px 48px;
+        }
+        .logo {
+            aspect-ratio: 0.96;
+            object-fit: contain;
+            object-position: center;
+            width: 23px;
+            margin-top: 117px;
+        }
+        .feature-container {
+            display: flex;
+            margin-top: 51px;
+            width: 950px;
+            max-width: 100%;
+            flex-direction: column;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+        .feature-content {
+            display: flex;
+            width: 805px;
+            max-width: 100%;
+            align-items: start;
+            gap: 40px 100px;
+            color: rgba(229, 229, 229, 1);
+            flex-wrap: wrap;
+            font: 700 54px/1 Arial, sans-serif;
+        }
+        .feature-icon {
+            aspect-ratio: 0.99;
+            object-fit: contain;
+            object-position: center;
+            width: 88px;
+        }
+        .feature-text {
+            margin-top: 12px;
+            flex-grow: 1;
+            width: 578px;
+        }
+        .badge {
+            border-radius: 100px;
+            background-color: rgba(255, 168, 0, 1);
+            display: flex;
+            margin-top: 18px;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+            color: rgba(10, 17, 23, 1);
+            line-height: 32px;
+            justify-content: center;
+            padding: 6px 24px;
+            border: 4px solid rgba(10, 17, 23, 1);
+        }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        @media (max-width: 991px) {
+            .section {
+                padding: 100px 20px;
+            }
+            .title {
+                max-width: 100%;
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .description {
+                max-width: 100%;
+            }
+            .button-container {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+            }
+            .button {
+                margin-top: 40px;
+                padding: 0 20px;
+            }
+            .logo {
+                margin-top: 40px;
+            }
+            .feature-container {
+                margin-top: 40px;
+            }
+            .feature-content {
+                font-size: 40px;
+            }
+            .feature-text {
+                max-width: 100%;
+                font-size: 40px;
+            }
+            .badge {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        function Button({ href, text }) {
+            return (
+                <a href={href} className="button">
+                    {text}
+                </a>
+            );
+        }
+
+        function AuroBot() {
+            return (
+                <section className="section">
+                    <div className="container">
+                        <h1 className="title">The Auro 2 Bot.</h1>
+                        <p className="description">
+                            An all-in-one bot to start, manage and grow a discord server!
+                        </p>
+                        <div className="button-container">
+                            <div>
+                                <Button href="https://discord.com/oauth2/authorize?client_id=1286314981150687243" text="Get started" />
+                            </div>
+                            <div>
+                                <Button href="https://sillyaurora.github.io/Auro2" text="Blog Post or Wiki" />
+                            </div>
+                        </div>
+                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e75b3fb9d1e07b6140d40a0c3bcb1fc96248f4d705634bf645925726461d7cc8?placeholderIfAbsent=true&apiKey=d51da7c2c21646bea29b0407ba858627" className="logo" alt="" />
+                        <div className="feature-container">
+                            <div className="feature-content">
+                                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d870eb288557c230b9bb212a5061fcaaeb8a285fc2c06792b8192f49826c37c?placeholderIfAbsent=true&apiKey=d51da7c2c21646bea29b0407ba858627" className="feature-icon" alt="Feature icon" />
+                                <h2 className="feature-text">Ready for every server</h2>
+                            </div>
+                        </div>
+                        <div className="badge" role="status" aria-label="Status badge"></div>
+                    </div>
+                </section>
+            );
+        }
+
+        ReactDOM.render(<AuroBot />, document.getElementById('root'));
+    </script>
+</body>
+</html>
